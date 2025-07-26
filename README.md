@@ -43,12 +43,7 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-dx-deck:st
 
 **For GNOME:**
 ```bash
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-dx-deck-gnome:stable
-```
-
-**For KDE with NVIDIA GPU:**
-```bash
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-dx-deck-nvidia:stable
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/jborkowski/bazzite-dx-gnome:stable
 ```
 
 **For GNOME with NVIDIA GPU:**
