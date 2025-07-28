@@ -2,9 +2,6 @@
 set -xeuo pipefail
 
 dnf5 install -y \
-  cryptsetup \
-  ykpers \
-  yubikey-personalization \ 
   yubikey-manager \
   ykpersonalize \
   seahorse \
