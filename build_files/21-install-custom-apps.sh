@@ -3,7 +3,7 @@ set -xeuo pipefail
 
 dnf5 install -y \
   yubikey-manager \
-  ykpersonalize \
+  ykpers \
   seahorse \
   libsecret \
   pam-gnome-keyring \ 
